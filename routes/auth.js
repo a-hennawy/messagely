@@ -1,5 +1,6 @@
-const Router = require("express").Router;
-const router = new Router();
+// const Router = require("express").Router;
+const express = require("express");
+const router = express.Router();
 const jwt = require("jsonwebtoken");
 
 const { SECRET_KEY } = require("../config");
